@@ -1,6 +1,5 @@
-# npProject
 
-[npProject link](https://mattnannetti.github.io/npProject/)
+[npProject live link](https://mattnannetti.github.io/npProject/)
 
 
 # npProject
@@ -52,6 +51,8 @@ Comme un bon travail découle d'une bonne préparation, voici quelques étapes �
 **Back :** NodeJs
 
 **Front :** ReactJs
+
+**Database :** PostGreSQL
 
 
 
