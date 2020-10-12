@@ -26,7 +26,7 @@ Portail d'actualités
 
 ## Starting point
 
-![Basic sketching of the initial idea](images/website_idea_sketch.jpeg)
+![](images/website_idea_sketch.png)
 
 ### Technos
 
