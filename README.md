@@ -45,5 +45,3 @@ Portail d'actualités
 
 ## Ressources
 
-
-
