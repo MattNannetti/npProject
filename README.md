@@ -26,11 +26,11 @@ Portail d'actualités
 
 ## Starting point
 
-![](public/images/initial_sketch.jpeg)
+![](public/images/initial_sketch.png)
 
-![](public/images/first_front.jpeg)
+![](public/images/first_front.png)
 
-![](public/images/first_front_2.jpeg)
+![](public/images/first_front_2.png)
 
 
 
