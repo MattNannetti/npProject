@@ -38,9 +38,9 @@ Portail d'actualités
 
 **Back :** NodeJs
 
-**Front :** ReactJs
+**Front :** HTML/CSS
 
-**Database :** PostGreSQL
+**Database :** MongoDB
 
 
 
