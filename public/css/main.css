@@ -3093,12 +3093,12 @@
 
 	}
 
-.categories-container {
-	max-width: 80%;
-	margin: auto;
-	margin-top: 5%;
-}
+	.categories-container {
+		max-width: 80%;
+		margin: auto;
+		margin-top: 5%;
+	}
 
-.category-link:hover {
-	opacity: 50%;
-}	
+	.category-link:hover {
+		opacity: 50%;
+	}	

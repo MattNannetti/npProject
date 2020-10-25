@@ -1,6 +1,6 @@
-// mongoDB pw = pVMrHdpJRAP9RJm0
+// mongoDB pw = 8hIU7VUaCpDhcclV
 // mongoDB user = mattn
-// mongodb+srv://mattn:pVMrHdpJRAP9RJm0@cluster0.4opmd.mongodb.net/<dbname>?retryWrites=true&w=majority
+// mongodb+srv://mongodb+srv://mattn:<password>@cluster0.gcg2o.mongodb.net/<dbname>?retryWrites=true&w=majority
 
 /*
 if (process.env.NODE_ENV !== 'production'){
@@ -43,7 +43,7 @@ app.use((req, res, next => {
 
 // connecting to mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://mattn:pVMrHdpJRAP9RJm0@cluster0.4opmd.mongodb.net/freshShop?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://mattn:8hIU7VUaCpDhcclV@cluster0.gcg2o.mongodb.net/IT-Watch?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
     console.log('Successfully connected to MongoDB');
   })
