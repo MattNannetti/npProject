@@ -52,7 +52,9 @@ Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 - Most of the front-end design and static pages
 
--NodeJS routes and server setup
+- NodeJS routes and server setup
+
+- Implementing Front End into Node environment
 
 
 ## Ressources
