@@ -22,7 +22,8 @@
 
 Thème choisi:
 
-Portail d'actualités
+Portail d'actualités IT.
+
 
 ## Starting point
 
