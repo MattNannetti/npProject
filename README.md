@@ -48,6 +48,7 @@ Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 ## Suivi du projet
 
+- Sketches and sorting ideas
 
 
 
