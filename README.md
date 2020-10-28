@@ -50,6 +50,7 @@ Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 - Sketches and sorting ideas
 
+- Most of the front-end design and static pages
 
 
 ## Ressources
