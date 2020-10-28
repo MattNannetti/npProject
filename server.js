@@ -15,7 +15,7 @@ const bodyParser = require('body-parser');
 
 const indexRouter = require('./routes/index');
 const categoriesRouter = require('./routes/categories');
-const genericRouter = require('./routes/generic');
+const articleRouter = require('./routes/article');
 const elementsRouter = require('./routes/elements');
 const registerRouter = require('./routes/register');
 const signinRouter = require('./routes/signin');
@@ -57,7 +57,7 @@ mongoose.connect('mongodb+srv://mattn:8hIU7VUaCpDhcclV@cluster0.gcg2o.mongodb.ne
 app.use('/', indexRouter);
 app.use('/index', indexRouter);
 app.use('/categories', categoriesRouter);
-app.use('/generic', genericRouter);
+app.use('/article', articleRouter);
 app.use('/elements', elementsRouter);
 app.use('/register', registerRouter);
 app.use('/signin', signinRouter);
