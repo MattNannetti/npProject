@@ -23,7 +23,7 @@
 Thème choisi:
 
 Portail d'actualités IT.
-
+Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 ## Starting point
 
