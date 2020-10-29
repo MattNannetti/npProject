@@ -26,10 +26,17 @@
             <div class="inner">
                 <div class="flex flex-3">
                     <article>
+
+
                         <header>
-                            <h3>Magna tempus sed amet<br /> aliquam veroeros</h3>
+                            <% articles.forEach(function(article, index) { %>
+                            <h3> <%- article.title.rendered %> </h3>
                         </header>
                         <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+                        <% }) %>
+
+
+
                         <footer>
                             <a href="/article" class="button special">Read More</a>
                             <a href="#" class="button alt">+</a>
