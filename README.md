@@ -56,7 +56,7 @@ Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 - Implementing Front End into Node environment
 
-- API setup
+- API setup (using NEWSAPI)
 
 
 ## Ressources

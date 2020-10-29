@@ -45,7 +45,7 @@ app.use((req, res, next => {
 const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://mattn:8hIU7VUaCpDhcclV@cluster0.gcg2o.mongodb.net/IT-Watch?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
-    console.log('Successfully connected to MongoDB');
+    console.log('Success! Very Nice! MongoDB');
   })
   .catch((error) => {
     console.log('Unable to connect to MongoDB');
