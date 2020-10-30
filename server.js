@@ -55,8 +55,8 @@ mongoose.connect('mongodb+srv://mattn:8hIU7VUaCpDhcclV@cluster0.gcg2o.mongodb.ne
 
 
 //link to our first route (or controller)
-app.use('/', indexRouter, newsRouter);
-app.use('/index', indexRouter, newsRouter);
+app.use('/', indexRouter);
+app.use('/index', indexRouter);
 app.use('/categories', categoriesRouter);
 app.use('/article', articleRouter);
 app.use('/elements', elementsRouter);
