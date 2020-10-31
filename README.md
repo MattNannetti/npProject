@@ -5,10 +5,10 @@
 # npProject
 
 - Repository: `OOP`
-- Type de challenge:  `Consolidation`
-- Durée: `4 semaines`
+- Challenge type:  `Consolidation`
+- Time: `4 weeks`
 - Deadline: `16/11/20 9 A.M.`
-- Déploiement :
+- Deployment :
 	- Github page
 	- Heroku
 	- Heroku + remote DBA
@@ -18,12 +18,12 @@
 
 
 
-## La Mission
+## Mission
 
-Thème choisi:
+Chosen theme:
 
-Portail d'actualités IT.
-Ensemble d'APIs réunissant les majeurs canaux d'information IT.
+IT related news website.
+Regrouping APIs from major IT news canals and sorting them out.
 
 
 ## Starting point
@@ -36,7 +36,7 @@ Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 
 
-### Technos
+### Tech
 
 **Back :** NodeJs
 
@@ -46,7 +46,7 @@ Ensemble d'APIs réunissant les majeurs canaux d'information IT.
 
 
 
-## Suivi du projet
+## Following
 
 - Sketches and sorting ideas
 
