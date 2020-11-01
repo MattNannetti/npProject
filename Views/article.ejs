@@ -16,13 +16,14 @@
     <!-- Article -->
         <section id="three" class="wrapper">
             <div class="inner">
-                <header class="align-center">
-                    <h2>${Title}</h2>
-                    <p>By: ${Author}</p>
-                </header>
-                <div class="4u" style="margin: auto;"><span  class="image fit"><img src="./images/gaming.png" alt="" /></span></div>
 
-                <p>${content}</p>
+                <header class="align-center">
+                    <h2> <%- article.title.rendered %> </h2>
+                    <p>Added: <%- article.date %> </p>
+                </header>
+                <div class="4u" style="margin: auto; max-width: 50px; text-align:center;"><span><img src="<%- article.thumbnail_url %>" alt="" /></span></div>
+
+                <p> <%- article.content.rendered %> </p>
                 
                 
                 

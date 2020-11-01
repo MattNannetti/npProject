@@ -23,7 +23,7 @@
 Chosen theme:
 
 IT related news website.
-Regrouping APIs from major IT news canals and sorting them out.
+Regrouping APIs from major IT news chanels and sorting them out.
 
 
 ## Starting point
