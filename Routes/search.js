@@ -4,7 +4,7 @@ const axios = require('axios');
 
 
 router.get('/', (req, res) =>{
-    res.render('./views/categories');
+    res.render('./views/search');
 });
 
 router.post('',async(req, res) => {

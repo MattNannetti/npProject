@@ -7,7 +7,7 @@
                     <a href="/index">Home</a>
                     <a href="/categories">Categories</a>
                     <a href="/elements">Read Later</a>
-                    <a href="#">Sign In/Register</a>
+                    <a href="/register">Sign In/Register</a>
                 </nav>
                 <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
             </div>
@@ -21,7 +21,7 @@
                     <h2> <%- article.title.rendered %> </h2>
                     <p>Added: <%- article.date %> </p>
                 </header>
-                <div class="4u" style="margin: auto; max-width: 50px; text-align:center;"><span><img src="<%- article.thumbnail_url %>" alt="" /></span></div>
+                <div style="margin: auto;"><img style="max-width: 70%; text-align:center;" src="<%- article.thumbnail_url %>" alt="" /></div>
 
                 <p> <%- article.content.rendered %> </p>
                 
@@ -34,7 +34,7 @@
                 <div class="flex flex-2">
                     <article>
                         <div class="image fit">
-                            <img src="./images/environment.png" alt="Pic 01" />
+                            <img src="/images/environment.png" alt="Pic 01" />
                         </div>
                         <header>
                             <h3>Praesent placerat magna</h3>
@@ -47,7 +47,7 @@
                     </article>
                     <article>
                         <div class="image fit">
-                            <img src="./images/development.png" alt="Pic 02" />
+                            <img src="/images/development.png" alt="Pic 02" />
                         </div>
                         <header>
                             <h3>Fusce pellentesque tempus</h3>

@@ -1,0 +1,64 @@
+<div class="subpage">
+<!-- Header -->
+        <header id="header" style="background-color: black;">
+            <div class="inner">
+                <a href="/" class="logo">IT-WATCH</a>
+                <nav id="nav">
+                    <a href="/index">Home</a>
+                    <a href="/categories">Categories</a> 
+                    <a href="/elements">Read Later</a>
+                    <a href="/register">Sign In/Register</a>
+                </nav>
+                <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+            </div>
+        </header>
+
+    <!-- SEARCHBAR -->
+
+    <div class="searchbar">
+        <form action="/search" method="POST">
+            <input style="display: inline-block; width: 80%; background-color:#e4e3e5;" type="text" name="search" id="search" placeholder="Search">
+            <input style="display: inline-block;" type="submit" value="Go"/>
+        </form>
+    </div>
+
+    <!--SEARCH RESULTS-->
+    <section class="wrapper">
+        <div class="inner">
+            <div style="width: 33%; display: block;">
+                <article>
+                    <header>
+                        <% articles.forEach(function(article, index) { %>
+                        <h3><a href="/article/<%- article.id %>"> <%- article.title.rendered %> </a></h3>
+                    </header>
+                     
+                    <p> <%- article.excerpt.rendered %> </p>                        
+                    
+
+                    <footer>
+                        <a href="/article/<%- article.id %>" class="button special">Read More</a>
+                        <a href="#" class="button alt">+</a>
+                    </footer>
+                    <% }) %>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <div class="flex">
+                    <div class="copyright">
+                        &copy; Matt Nannetti, for BeCode Brussels. Images: <a href="https://unsplash.com">Unsplash</a>.
+                    </div>
+                    <ul class="icons">
+                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+                        <li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>

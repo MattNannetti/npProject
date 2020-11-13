@@ -7,6 +7,7 @@
                     <a href="/categories">Categories</a> 
                     <a href="/elements">Read Later</a>
                     <a href="/register">Sign In/Register</a>
+                    <a href="/register">Log Out</a>
                 </nav>
                 <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
             </div>
@@ -27,52 +28,52 @@
                 <div class="flex flex-3">
                     <article>
                         <header>
-                            <% articles.forEach(function(article, index) { %>
-                            <h3><a href="/article/<%- article.id %>"> <%- article.title.rendered %> </a></h3>
+                            
+                            <h3><a href="/article/<%- article1.id %>"> <%- article1.title.rendered %> </a></h3>
                         </header>
                          
-                        <p> <%- article.excerpt.rendered %> </p>                        
+                        <p> <%- article1.excerpt.rendered %> </p>                        
                         
 
                         <footer>
-                            <a href="/article/<%- article.id %>" class="button special">Read More</a>
+                            <a href="/article/<%- article1.id %>" class="button special">Read More</a>
                             <a href="#" class="button alt">+</a>
                         </footer>
-                        <% }) %>
+                        
                     </article>
 
 
                     <article>
                         <header>
-                            <% articles.forEach(function(article, index) { %>
-                            <h3><a href="/article/<%- article.id %>"> <%- article.title.rendered %> </a></h3>
+                            
+                            <h3><a href="/article/<%- article2.id %>"> <%- article2.title.rendered %> </a></h3>
                         </header>
                          
-                        <p> <%- article.excerpt.rendered %> </p>                        
+                        <p> <%- article2.excerpt.rendered %> </p>                        
                         
 
                         <footer>
-                            <a href="/article/<%- article.id %>" class="button special">Read More</a>
+                            <a href="/article/<%- article2.id %>" class="button special">Read More</a>
                             <a href="#" class="button alt">+</a>
                         </footer>
-                        <% }) %>
+                        
                     </article>
-
+                
 
                     <article>
                         <header>
-                            <% articles.forEach(function(article, index) { %>
-                            <h3><a href="/article/<%- article.id %>"> <%- article.title.rendered %> </a></h3>
+                            
+                            <h3><a href="/article/<%- article3.id %>"> <%- article3.title.rendered %> </a></h3>
                         </header>
                          
-                        <p> <%- article.excerpt.rendered %> </p>                        
+                        <p> <%- article3.excerpt.rendered %> </p>                        
                         
 
                         <footer>
-                            <a href="/article/<%- article.id %>" class="button special">Read More</a>
+                            <a href="/article/<%- article3.id %>" class="button special">Read More</a>
                             <a href="#" class="button alt">+</a>
                         </footer>
-                        <% }) %>
+                        
                     </article>
                 </div>
             </div>
@@ -83,7 +84,7 @@
             <div class="inner">
                 <header>
                     <h2>Article of the Day</h2>
-                    <p>Semper suscipit posuere apede</p>
+                    <p><a style="color: blanchedalmond;" href="/article/<%- artOfTheDay.id %>"><%- artOfTheDay.title.rendered %></a></p>
                 </header>
             </div>
         </section>
@@ -98,7 +99,7 @@
                 <div class="flex flex-2">
                     <article>
                         <div class="image fit">
-                            <img src="./images/ai.png" alt="Pic 01" />
+                            <img src="/images/ai.png" alt="Pic 01" />
                         </div>
                         <header>
                             <h3>Praesent placerat magna</h3>
@@ -111,7 +112,7 @@
                     </article>
                     <article>
                         <div class="image fit">
-                            <img src="./images/development.png" alt="Pic 02" />
+                            <img src="/images/development.png" alt="Pic 02" />
                         </div>
                         <header>
                             <h3>Fusce pellentesque tempus</h3>
@@ -131,7 +132,7 @@
             <div class="inner">
                 <div class="flex">
                     <div class="copyright">
-                        &copy; Matt Nannetti, fro BeCode Brussels. Images: <a href="https://unsplash.com">Unsplash</a>.
+                        &copy; Matt Nannetti, for BeCode Brussels. Images: <a href="https://unsplash.com">Unsplash</a>.
                     </div>
                     <ul class="icons">
                         <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
