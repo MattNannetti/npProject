@@ -1,13 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
 <div class="subpage">
 <!-- Header -->
         <header id="header" style="background-color: black;">
             <div class="inner">
                 <a href="/index" class="logo">IT-WATCH</a>
                 <nav id="nav">
-                    <a href="/index">Home</a>
-                    <a href="/categories">Categories</a>
-                    <a href="/elements">Read Later</a>
-                    <a href="/register">Sign In/Register</a>
+                    <a href="{{ url_for('home') }}">Home</a>
+                    <a href="{{ url_for('categories') }}">Categories</a> 
+                    <a href="{{ url_for('readlater') }}">Read Later</a>
+                    <a href="{{ url_for('register') }}">Sign In/Register</a>
                 </nav>
                 <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
             </div>
@@ -80,3 +83,5 @@
             </div>
         </footer>
 </div>
+
+{% endblock content %}

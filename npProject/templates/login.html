@@ -1,22 +1,9 @@
-<div class="subpage background-img">
-<!-- Header -->
-        <header id="header" style="background-color: black;">
-            <div class="inner">
-                <a href="/index" class="logo">IT-WATCH</a>
-                <nav id="nav">
-                    <a href="/index">Home</a>
-                    <a href="/categories">Categories</a>
-                    <a href="/elements">Read Later</a>
-                    <a href="/register">Sign In/Register</a>
-                </nav>
-                <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-            </div>
-        </header>
-
+{% extends "layoutsub.html" %}
+{% block content %}
 
     <!-- Register From -->
     <div class="register-form">
-        <h3>Sign in</h3>
+        <h3>Log in</h3>
 
         <form method="POST" action="#">
             <div class="row uniform">
@@ -34,8 +21,11 @@
                 <div class="12u$">
                     <input class="actions" type="submit" value="Sign in" /></li>
                 </div>
-                <a href="">Forgotten password? Reset</a> 
-                <a href="/register">No account yet? Register here!</a>
+                <a href="">Forgotten password?</a>
+                <p>
+                    No account yet?
+                <a href=" {{ url_for('register')}} ">Register here!</a>
+                </p>
             </div>
         </form>
 
@@ -62,3 +52,5 @@
             </div>
         </footer>
 </div>
+
+{% endblock content %}
